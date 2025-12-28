@@ -9,15 +9,15 @@ build/
 
 # Environment variables
 .env
-.env.*
-.env.example
+.env.local
 .env.development
 .env.dev
-.env.local
 .env.development.local
 .env.test.local
+.env.production
 .env.production.local
 .env.production.ready
+!.env.example
 
 # IDE and editor files
 .vscode/
