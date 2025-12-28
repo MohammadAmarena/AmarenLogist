@@ -9,15 +9,15 @@ build/
 
 # Environment variables
 .env
-.env.local
+.env.*
+.env.example
 .env.development
 .env.dev
+.env.local
 .env.development.local
 .env.test.local
-.env.production
 .env.production.local
 .env.production.ready
-!.env.example
 
 # IDE and editor files
 .vscode/
@@ -86,28 +86,64 @@ jspm_packages/
 .yarn-integrity
 
 # parcel-bundler cache (https://parceljs.org/)
-.cache
-.parcel-cache
+.cache/
+.parcel-cache/
 
 # Next.js build output
-.next
+.next/
 
 # Nuxt.js build / generate output
-.nuxt
+.nuxt/
 
 # Gatsby files
 .cache/
 
 # Storybook build outputs
-.out
-.storybook-out
+.out/
+.storybook-out/
 
 # Temporary folders
 tmp/
 temp/
 
-# Database
+# Database files (use database/ directory for migrations)
 *.db
 *.sqlite
 *.sqlite3
-.env
+*.sqlite-journal
+
+# Test files
+test-*.ts
+test-*.js
+test-*.json
+test-*.db
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# PM2
+ecosystem.config.js
+
+# Nginx
+nginx.conf
+
+# Development scripts
+init-*.sh
+deploy.sh
+test-*.sh
+setup_*.sh
+GIT_*.md
+
+# Package managers
+package-lock.json
+yarn.lock
+
+# Environment examples
+.env.example
+.env.template
+
+# Local development files
+.local/
+*.local.*
