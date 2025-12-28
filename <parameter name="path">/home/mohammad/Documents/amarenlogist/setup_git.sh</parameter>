@@ -1,0 +1,40 @@
+<parameter name="content">#!/bin/bash
+
+# Setup Git configuration
+echo "Setting up Git configuration..."
+git config user.name "AmarenLogist Bot"
+git config user.email "bot@amarenlogist.com"
+
+# Add all changes
+echo "Adding changes..."
+git add .
+
+# Commit with descriptive message
+echo "Committing changes..."
+git commit -m "Fix: Resolve authentication error and port configuration
+
+- Fixed TypeError: Invalid URL in OAuth authentication
+- Added missing environment variables (VITE_OAUTH_PORTAL_URL, VITE_APP_ID)  
+- Configured proper backend/frontend URLs
+- Application now running successfully on port 3006
+- Created .env.dev file with proper development environment setup"
+
+# Create and switch to new branch
+echo "Creating new branch..."
+git checkout -b blackboxai/fix-authentication-issues
+
+# Set up remote origin if not exists
+echo "Setting up remote origin..."
+git remote remove origin 2>/dev/null || true
+git remote add origin https://github.com/MohammadAmarena/AmarenLogist.git
+
+# Push to GitHub
+echo "Pushing to GitHub..."
+git push -u origin blackboxai/fix-authentication-issues
+
+echo "✅ Git operations completed successfully!"
+echo "📋 Next steps:"
+echo "1. Go to https://github.com/MohammadAmarena/AmarenLogist"
+echo "2. Click 'Compare & pull request' for the 'blackboxai/fix-authentication-issues' branch"
+echo "3. Review the changes and create the pull request"
+</parameter>

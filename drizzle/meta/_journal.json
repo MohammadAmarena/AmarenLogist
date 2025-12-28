@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1766673962453,
+      "tag": "0000_solid_hellion",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1766674106861,
+      "tag": "0001_far_luckman",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1766675504561,
+      "tag": "0002_chunky_warhawk",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1766675983107,
+      "tag": "0003_gifted_gideon",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1766678321893,
+      "tag": "0004_loose_greymalkin",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1766679035879,
+      "tag": "0005_worthless_vindicator",
+      "breakpoints": true
+    }
+  ]
+}
