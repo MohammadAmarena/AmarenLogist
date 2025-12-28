@@ -33,7 +33,7 @@ Tragen Sie folgende Werte ein (kopieren Sie aus den entsprechenden Services):
 
 **Wert eintragen:**
 ```
-sk_test_51234567890abcdefghijklmnop
+sk_test_YOUR_STRIPE_SECRET_KEY_HERE
 ```
 
 #### 2. STRIPE_PUBLISHABLE_KEY
@@ -46,7 +46,7 @@ sk_test_51234567890abcdefghijklmnop
 
 **Wert eintragen:**
 ```
-pk_test_51234567890abcdefghijklmnop
+pk_test_YOUR_STRIPE_PUBLISHABLE_KEY_HERE
 ```
 
 #### 3. STRIPE_WEBHOOK_SECRET
@@ -63,7 +63,7 @@ pk_test_51234567890abcdefghijklmnop
 
 **Wert eintragen:**
 ```
-whsec_test_1234567890abcdefghijklmnop
+whsec_YOUR_STRIPE_WEBHOOK_SECRET_HERE
 ```
 
 #### 4. JWT_SECRET
@@ -78,7 +78,7 @@ openssl rand -base64 32
 
 **Wert eintragen:**
 ```
-abcdefghijklmnopqrstuvwxyz1234567890ABCD
+YOUR_SECURE_JWT_SECRET_HERE_GENERATE_WITH_OPENSsl_RAND
 ```
 
 #### 5. SENDGRID_API_KEY
@@ -94,7 +94,7 @@ abcdefghijklmnopqrstuvwxyz1234567890ABCD
 
 **Wert eintragen:**
 ```
-SG.1234567890abcdefghijklmnopqrstuvwxyz
+SG.YOUR_SENDGRID_API_KEY_HERE
 ```
 
 #### 6. TWILIO_ACCOUNT_SID
@@ -108,7 +108,7 @@ SG.1234567890abcdefghijklmnopqrstuvwxyz
 
 **Wert eintragen:**
 ```
-AC1234567890abcdefghijklmnopqrstuv
+AC_YOUR_TWILIO_ACCOUNT_SID_HERE
 ```
 
 #### 7. TWILIO_AUTH_TOKEN
@@ -121,7 +121,7 @@ AC1234567890abcdefghijklmnopqrstuv
 
 **Wert eintragen:**
 ```
-1234567890abcdefghijklmnopqrstuvwx
+YOUR_TWILIO_AUTH_TOKEN_HERE
 ```
 
 #### 8. TWILIO_PHONE_NUMBER
@@ -150,7 +150,7 @@ AC1234567890abcdefghijklmnopqrstuv
 
 **Wert eintragen:**
 ```
-AKIAIOSFODNN7EXAMPLE
+AKIA_YOUR_AWS_ACCESS_KEY_ID_HERE
 ```
 
 #### 10. AWS_S3_SECRET_ACCESS_KEY
@@ -163,7 +163,7 @@ AKIAIOSFODNN7EXAMPLE
 
 **Wert eintragen:**
 ```
-wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+YOUR_AWS_SECRET_ACCESS_KEY_HERE
 ```
 
 ### Schritt 1.4: Weitere wichtige Variables
